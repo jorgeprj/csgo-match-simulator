@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>CS:GO Match Simulator</title>
+</head>
+
+<body>
+    <div class="simulator">
+        <button id="playButton">PLAY</button>
+        <div id="score"></div>
+        <div class="team">
+            <select id="teamSelectorA"></select>
+            <div class="teamA">
+                <div class="player" id="player1"></div>
+                <div class="player" id="player2"></div>
+                <div class="player" id="player3"></div>
+                <div class="player" id="player4"></div>
+                <div class="player" id="player5"></div>
+            </div>
+        </div>
+        <div class="team">
+            <select id="teamSelectorB"></select>
+            <div class="teamB">
+                <div class="player" id="player6"></div>
+                <div class="player" id="player7"></div>
+                <div class="player" id="player8"></div>
+                <div class="player" id="player9"></div>
+                <div class="player" id="player10"></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/js/match.js"></script>
+    <script src="/js/playButton.js"></script>
+    <script src="/js/teamSelector.js"></script>
+</body>
+
+</html>

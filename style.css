@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.simulator {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#playButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#score {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.team {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#teamSelectorB,
+#teamSelectorA{
+    margin-bottom: 10px;
+}
+
+.player {
+    margin-top: 10px;
+    font-size: 14px;
+}
