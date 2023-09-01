@@ -1,0 +1,108 @@
+[
+	{
+		"id": 1,
+		"name": "Gabriel Toledo",
+		"nickname": "FalleN",
+		"age": 31,
+		"skills": 84
+	},
+	{
+		"id": 2,
+		"name": "Yuri Boian",
+		"nickname": "yuurih",
+		"age": 24,
+		"skills": 84
+	},
+	{
+		"id": 3,
+		"name": "Andrei Piovezan",
+		"nickname": "arT",
+		"age": 27,
+		"skills": 81
+	},
+	{
+		"id": 4,
+		"name": "Kaike Ceraro",
+		"nickname": "KSCERATO",
+		"age": 25,
+		"skills": 85
+	},
+	{
+		"id": 5,
+		"name": "Marcelo Cespedes",
+		"nickname": "chelo",
+		"age": 24,
+		"skills": 84
+	},
+	{
+		"id": 6,
+		"name": "Ricardo Prass",
+		"nickname": "boltz",
+		"age": 25,
+		"skills": 81
+	},
+	{
+		"id": 7,
+		"name": "Vinicius Figueiredo",
+		"nickname": "VINI",
+		"age": 23,
+		"skills": 80
+	},
+
+	{
+		"id": 8,
+		"name": "Jhonatan Willian",
+		"nickname": "JOTA",
+		"age": 24,
+		"skills": 80
+	},
+	{
+		"id": 9,
+		"name": "Henrique Teles",
+		"nickname": "HEN1",
+		"age": 28,
+		"skills": 83
+	},
+	{
+		"id": 10,
+		"name": "João Vasconcellos",
+		"nickname": "felps",
+		"age": 26,
+		"skills": 82
+	},
+	{
+		"id": 11,
+		"name": "Lucas Neves",
+		"nickname": "Lucaozy",
+		"age": 21,
+		"skills": 83
+	},
+	{
+		"id": 12,
+		"name": "Vinicius Moreira",
+		"nickname": "v$m",
+		"age": 23,
+		"skills": 79
+	},
+	{
+		"id": 13,
+		"name": "Romeu Rocco",
+		"nickname": "zevy",
+		"age": 22,
+		"skills": 79
+	},
+	{
+		"id": 14,
+		"name": "Vinícios Coelho",
+		"nickname": "PKL",
+		"age": 29,
+		"skills": 77
+	},
+	{
+		"id": 15,
+		"name": "Henrique Menacho",
+		"nickname": "t9rnay",
+		"age": 22,
+		"skills": 78
+	}
+]
