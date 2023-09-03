@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         const defaultOption = document.createElement("option");
         defaultOption.value = "";
         defaultOption.textContent = "Selecione o time";
-        
+
         teamSelectorA.appendChild(defaultOption.cloneNode(true));
         teamSelectorB.appendChild(defaultOption.cloneNode(true));
 
@@ -32,23 +32,44 @@ document.addEventListener("DOMContentLoaded", async function () {
     function updatePlayerIDs(selectedTeamIdA, selectedTeamIdB) {
         const selectedTeamA = teams.find(team => team.id === selectedTeamIdA);
         const selectedTeamB = teams.find(team => team.id === selectedTeamIdB);
-
+      
         // Assuming the roster attribute is a list of player IDs
         const rosterA = selectedTeamA.roster;
         const rosterB = selectedTeamB.roster;
-
+      
         // Update player elements with player IDs
-        document.getElementById("player1").textContent = players.find(player => player.id === rosterA[0]).nickname;
-        document.getElementById("player2").textContent = players.find(player => player.id === rosterA[1]).nickname;
-        document.getElementById("player3").textContent = players.find(player => player.id === rosterA[2]).nickname;
-        document.getElementById("player4").textContent = players.find(player => player.id === rosterA[3]).nickname;
-        document.getElementById("player5").textContent = players.find(player => player.id === rosterA[4]).nickname;
+        updatePlayerElement("player1", rosterA[0]);
+        updatePlayerElement("player2", rosterA[1]);
+        updatePlayerElement("player3", rosterA[2]);
+        updatePlayerElement("player4", rosterA[3]);
+        updatePlayerElement("player5", rosterA[4]);
+      
+        updatePlayerElement("player6", rosterB[0]);
+        updatePlayerElement("player7", rosterB[1]);
+        updatePlayerElement("player8", rosterB[2]);
+        updatePlayerElement("player9", rosterB[3]);
+        updatePlayerElement("player10", rosterB[4]);
+      
+        function updatePlayerElement(elementId, playerId) {
+          const playerElement = document.getElementById(elementId);
+          const player = players.find(player => player.id === playerId);
+      
+          if (player) {
+            const country = player.country;
+            const flagImage = document.createElement("img");
+            flagImage.className = "flag";
+      
+            // Crie o caminho da imagem com base no país do jogador
+            const imagePath = `./assets/flags/${country}.png`;
+            flagImage.src = imagePath;
 
-        document.getElementById("player6").textContent = players.find(player => player.id === rosterB[0]).nickname;
-        document.getElementById("player7").textContent = players.find(player => player.id === rosterB[1]).nickname;
-        document.getElementById("player8").textContent = players.find(player => player.id === rosterB[2]).nickname;
-        document.getElementById("player9").textContent = players.find(player => player.id === rosterB[3]).nickname;
-        document.getElementById("player10").textContent = players.find(player => player.id === rosterB[4]).nickname;
+            playerElement.setAttribute("data-player-id", playerId);
+      
+            playerElement.innerHTML = "";
+            playerElement.appendChild(flagImage);
+            playerElement.appendChild(document.createTextNode(player.nickname));
+          }
+        }
     }
 
     function setupTeamSelectors() {

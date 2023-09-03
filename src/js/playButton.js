@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async function  () {
         const selectedTeamB = teams.find(team => team.id === selectedTeamIdB);
 
         if (!selectedTeamA || !selectedTeamB) {
-            scoreElement.textContent = "Select valid teams";
+            popupContainer.style.display = "flex";
         } else {
             const match = new Match(1, 1, selectedTeamA.id, selectedTeamB.id, 0);
             scoreElement.textContent = match.play();

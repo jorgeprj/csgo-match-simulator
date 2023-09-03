@@ -4,15 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/erro-popup.css">
+    <link rel="stylesheet" href="src/css/player-profile.css">
     <title>CS:GO Match Simulator</title>
 </head>
 
 <body>
     <div class="simulator">
-        <button id="playButton">PLAY</button>
         <div id="score"></div>
+        <br>
+        
         <div class="team">
             <select id="teamSelectorA"></select>
             <div class="teamA">
@@ -33,11 +35,36 @@
                 <div class="player" id="player10"></div>
             </div>
         </div>
+        
+        <br>
+        <button id="playButton">PLAY</button>
+
+        <div id="playerPopup">
+            <button id="close2">&times;</button>
+            <div><span id="popupSkills"></span></div>
+            <img id="playerImage" src="" alt="Imagem do Jogador">
+            <p><strong>Name:</strong> <span id="popupName"></span></p>
+            <p><strong>Nickname:</strong> <span id="popupNickname"></span></p>
+            <p><strong>Age:</strong> <span id="popupAge"></span></p>
+            <p><strong>Nationality:</strong> <span id="popupCountry"></span></p>
+        </div>
+
+        <div class="popup-container" id="popupContainer">
+            <div class="popup" id="popup">
+                <button id="close">&times;</button>
+                <h2>Oops</h2>
+                <p>
+                    Please select valid teams.
+                </p>
+            </div>
+        </div>
 
     </div>
-    <script src="/js/match.js"></script>
-    <script src="/js/playButton.js"></script>
-    <script src="/js/teamSelector.js"></script>
+    <script src="/src/js/match.js"></script>
+    <script src="/src/js/playButton.js"></script>
+    <script src="/src/js/erroPopup.js"></script>
+    <script src="/src/js/teamSelector.js"></script>
+    <script src="/src/js/playerProfile.js"></script>
 </body>
 
 </html>
