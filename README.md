@@ -20,6 +20,8 @@ Another improvement made was general css enhancement. It is worth mentioning, th
 
 ## Database
 
+The project has a database of teams and players. Below you can check the teams and players already included and their respective ids
+
 ### Teams
 
 | Name             | ID |
