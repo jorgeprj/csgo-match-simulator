@@ -10,6 +10,14 @@ This project is an interactive simulator of a CS:GO match, where users can selec
 
 In this first version it is possible to choose between the 3 teams, **Furia Esports**, **Fluxo** and **Imperial Sports**, to simulate  completely random matches. Also, players appear when choosing the team.
 
+### REALEASE 1.1
+
+![PRINT](/assets/print2.png)
+
+In this release, the possibility of seeing the player's profile by clicking on the nickname was added. Also, an error popup has been added.
+
+Another improvement made was general css enhancement. It is worth mentioning, the flag of the player's country that was added next to the nickname.
+
 ## Details
 
 ### Pro Players Cards
