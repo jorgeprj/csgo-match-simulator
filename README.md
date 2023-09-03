@@ -18,9 +18,51 @@ In this release, the possibility of seeing the player's profile by clicking on t
 
 Another improvement made was general css enhancement. It is worth mentioning, the flag of the player's country that was added next to the nickname.
 
+## Database
+
+### Teams
+
+| Name             | ID |
+|------------------|----|
+| Furia Esports    | 1  |
+| Imperial Esports | 2  |
+| Fluxo            | 3  |
+| 9z Team          | 4  |
+| MIBR             | 5  |
+
+### Players
+
+| Name     | ID |
+|----------|----|
+| FalleN   | 1  |
+| yuurih   | 2  |
+| arT      | 3  |
+| KSCERATO | 4  |
+| chelo    | 5  |
+| boltz    | 6  |
+| VINI     | 7  |
+| JOTA     | 8  |
+| HEN1     | 9  |
+| felps    | 10 |
+| Lucaozy  | 11 |
+| v$m      | 12 |
+| zevy     | 13 |
+| PKL      | 14 |
+| t9rnay   | 15 |
+| dgt      | 16 |
+| max      | 17 |
+| dav1deuS | 18 |
+| buda     | 19 |
+| try      | 20 |
+| exit     | 21 |
+| brnz4n   | 22 |
+| insani   | 23 |
+| drop     | 24 |
+| saffee   | 25 |
+
 ## Details
 
-### Pro Players Cards
+### Match Simulator
 
 ![CSGO](https://img.shields.io/badge/Counter_Strike-000000?style=for-the-badge&logo=counter-strike&logoColor=white)
 
