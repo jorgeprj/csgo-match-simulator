@@ -39,19 +39,21 @@
         <br>
         <button id="playButton">PLAY</button>
 
-        <div id="playerPopup">
-            <button id="close2">&times;</button>
-            <div><span id="popupSkills"></span></div>
-            <img id="playerImage" src="" alt="Imagem do Jogador">
-            <p><strong>Name:</strong> <span id="popupName"></span></p>
-            <p><strong>Nickname:</strong> <span id="popupNickname"></span></p>
-            <p><strong>Age:</strong> <span id="popupAge"></span></p>
-            <p><strong>Nationality:</strong> <span id="popupCountry"></span></p>
+        <div class="playerPopup-container" id="playerPopupContainer">
+            <div class="playerPopup" id="playerPopup">
+                <button class="close" id="close">&times;</button>
+                <div><span class="playerSkills" id="popupSkills"></span></div>
+                <img class="playerImage" id="playerImage" src="" alt="Imagem do Jogador">
+                <p><strong>Name:</strong> <span id="popupName"></span></p>
+                <p><strong>Nickname:</strong> <span id="popupNickname"></span></p>
+                <p><strong>Age:</strong> <span id="popupAge"></span></p>
+                <p><strong>Nationality:</strong> <span id="popupCountry"></span></p>
+            </div>
         </div>
 
         <div class="popup-container" id="popupContainer">
             <div class="popup" id="popup">
-                <button id="close">&times;</button>
+                <button class="close" id="close2">&times;</button>
                 <h2>Oops</h2>
                 <p>
                     Please select valid teams.

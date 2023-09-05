@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", async function () {
                 const playerId = parseInt(stringPlayerId, 10);
                 const player = players.find(player => player.id === playerId);
                 
-                // Preencher o popup com as informações do jogador
                 document.getElementById("popupSkills").textContent = player.skills;
                 document.getElementById("popupName").textContent = player.name;
                 document.getElementById("popupNickname").textContent = player.nickname;
@@ -20,9 +19,8 @@ document.addEventListener("DOMContentLoaded", async function () {
                 const playerImage = document.getElementById("playerImage");
                 playerImage.src = `./assets/players/${player.id}.png`;
 
-                // Exibir o popup
+                document.getElementById("playerPopupContainer").style.display = "block";
                 document.getElementById("playerPopup").style.display = "block";
-
                 if (player.skills > 80){
                     popupSkills.style.color = '#19a914';
                 }else if(player.skills < 80){
@@ -33,8 +31,14 @@ document.addEventListener("DOMContentLoaded", async function () {
         });
     }
 
-    document.querySelector("#close2").addEventListener("click", function(){
-        document.querySelector("#playerPopup").style.display = "none";
+    playerPopupContainer.addEventListener("click", function (event) {
+        if (event.target === playerPopupContainer) {
+            playerPopupContainer.style.display = "none";
+        }
+    });
+
+    document.querySelector("#close").addEventListener("click", function(){
+        document.querySelector(".playerPopup-container").style.display = "none";
     });
 
     addClickEventToPlayerElements();

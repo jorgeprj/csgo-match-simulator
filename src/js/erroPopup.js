@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async function  () {
         }
     });
 
-    document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector("#close2").addEventListener("click", function(){
         document.querySelector(".popup-container").style.display = "none";
     });
 });
