@@ -29,16 +29,42 @@ body {
     margin-top: 20px;
 }
 
-#score {
-    margin-top: 20px;
-    font-size: 24px;
-}
-
 .team {
     display: inline-block;
     margin: 0 20px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.teamLogo{
+    max-width: 100px;
+    margin-bottom: 10px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.score-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilos para os logotipos dos times */
+.teamLogo {
+    margin: 0 10px; 
+}
+
+.teamLogo img {
+    max-width: 48px;
+    height: auto; 
+}
+
+#score {
+    font-size: 24px;
+    display: inline-block;
 }
 
 #teamSelectorB,
@@ -77,10 +103,13 @@ select:focus {
     font-size: 14px;
     text-align: left;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 .flag{
     width: 19px;
     height: 14px;
     margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
 }

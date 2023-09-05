@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", async function () {
     const teamSelectorA = document.getElementById("teamSelectorA");
     const teamSelectorB = document.getElementById("teamSelectorB");
+    const teamALogo = document.getElementById("teamALogo");
+    const teamBLogo = document.getElementById("teamBLogo"); 
 
     const response = await fetch("/src/database/teams.json");
     const teams = await response.json();
@@ -32,6 +34,9 @@ document.addEventListener("DOMContentLoaded", async function () {
     function updatePlayerIDs(selectedTeamIdA, selectedTeamIdB) {
         const selectedTeamA = teams.find(team => team.id === selectedTeamIdA);
         const selectedTeamB = teams.find(team => team.id === selectedTeamIdB);
+
+        const scoreElement = document.getElementById("score");
+        scoreElement.textContent = "";
       
         // Assuming the roster attribute is a list of player IDs
         const rosterA = selectedTeamA.roster;
@@ -59,7 +64,6 @@ document.addEventListener("DOMContentLoaded", async function () {
             const flagImage = document.createElement("img");
             flagImage.className = "flag";
       
-            // Crie o caminho da imagem com base no país do jogador
             const imagePath = `./assets/flags/${country}.png`;
             flagImage.src = imagePath;
 
@@ -69,6 +73,11 @@ document.addEventListener("DOMContentLoaded", async function () {
             playerElement.appendChild(flagImage);
             playerElement.appendChild(document.createTextNode(player.nickname));
           }
+
+          const imagePathA = `/assets/teams/${selectedTeamIdA}.png`;
+          const imagePathB = `/assets/teams/${selectedTeamIdB}.png`;
+          teamALogo.innerHTML = `<img src="${imagePathA}" alt="Logo do Time A">`;
+          teamBLogo.innerHTML = `<img src="${imagePathB}" alt="Logo do Time B">`;
         }
     }
 
