@@ -25,8 +25,12 @@
     z-index: 9999;
 }
 
-.playerPopup p{
-    text-align: left;
+.playerSkills{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #19a914;
+    margin-left: 180px;
 }
 
 .playerImage {
@@ -34,10 +38,30 @@
     max-height: 100px;
 }
 
-.playerSkills{
+.playerPopup p{
+    text-align: left;
+    font-size: 14px;
+    margin: 5px 0px 5px 0px;
+}
+
+.playerCompleteName{
+    text-align: left;
+}
+
+.playerNickname {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.playerName{
+    font-size: 14px;
+}
+
+.smallTeamLogo{
+    max-width: 16px;
+    margin-right: 5px;
     display: inline-block;
-    font-weight: bold;
-    font-size: 20px;
-    color: #19a914;
-    margin-left: 180px;
+    vertical-align: middle;
 }

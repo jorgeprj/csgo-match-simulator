@@ -12,7 +12,13 @@
 
 <body>
     <div class="simulator">
-        <div id="score"></div>
+        <div class="score-container">
+            <div class="teamLogo" id="teamALogo"><img src="" alt=""></div>
+            <div id="score"></div>
+            <div class="teamLogo" id="teamBLogo"><img src="" alt=""></div>
+        </div>
+        
+
         <br>
         
         <div class="team">
@@ -42,12 +48,16 @@
         <div class="playerPopup-container" id="playerPopupContainer">
             <div class="playerPopup" id="playerPopup">
                 <button class="close" id="close">&times;</button>
-                <div><span class="playerSkills" id="popupSkills"></span></div>
+                <div><span class="playerSkills" id="playerSkills"></span></div>
                 <img class="playerImage" id="playerImage" src="" alt="Imagem do Jogador">
-                <p><strong>Name:</strong> <span id="popupName"></span></p>
-                <p><strong>Nickname:</strong> <span id="popupNickname"></span></p>
-                <p><strong>Age:</strong> <span id="popupAge"></span></p>
-                <p><strong>Nationality:</strong> <span id="popupCountry"></span></p>
+                
+                <div class="playerCompleteName">
+                    <span class="playerNickname" id="playerNickname"></span>
+                    <span class="playerName" id="playerName"></span>
+                </div>
+
+                <p><strong>Age:</strong> <span id="playerAge"></span></p>
+                <p><strong>Current team:</strong> <span id="playerTeam"></span></p>
             </div>
         </div>
 
