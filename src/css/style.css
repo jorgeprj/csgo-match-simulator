@@ -113,3 +113,7 @@ select:focus {
     display: inline-block;
     vertical-align: middle;
 }
+
+.info{
+    margin-top: 10px;
+}

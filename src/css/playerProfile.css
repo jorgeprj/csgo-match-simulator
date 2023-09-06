@@ -34,6 +34,18 @@
     margin-left: 180px;
 }
 
+.playerId{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
 .playerImage {
     max-width: 100%;
     max-height: 120px;
