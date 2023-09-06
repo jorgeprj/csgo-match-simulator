@@ -18,15 +18,13 @@ body {
     text-align: center;
 }
 
-#playButton {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+.score-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .team {
@@ -44,32 +42,14 @@ body {
     margin-right: auto;
 }
 
-.score-container{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-/* Estilos para os logotipos dos times */
-.teamLogo {
-    margin: 0 10px; 
-}
-
 .teamLogo img {
     max-width: 48px;
     height: auto; 
 }
 
-#score {
+.score {
     font-size: 24px;
     display: inline-block;
-}
-
-#teamSelectorB,
-#teamSelectorA{
-    margin-bottom: 10px;
 }
 
 select {
@@ -97,6 +77,10 @@ select:focus {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
 }
 
+.teamSelector{
+    margin-bottom: 10px;
+}
+
 .player {
     margin-top: 10px;
     margin-left: 20px;
@@ -114,6 +98,13 @@ select:focus {
     vertical-align: middle;
 }
 
-.info{
-    margin-top: 10px;
+.playButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
 }

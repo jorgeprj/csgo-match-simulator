@@ -1,4 +1,4 @@
-.playerPopup-container{
+.playerPopupContainer{
     display: none;
     position: fixed;
     top: 0;
@@ -34,27 +34,8 @@
     margin-left: 180px;
 }
 
-.playerId{
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 2px 10px;
-    border-radius: 10px;
-    font-size: 0.8rem;
-    margin-left: 5px;
-    vertical-align: middle;
-    font-weight: 400;
-    margin-left: 10px;
-}
-
 .playerImage {
-    max-width: 100%;
     max-height: 120px;
-}
-
-.playerPopup p{
-    text-align: left;
-    font-size: 14px;
-    margin: 5px 0px 5px 0px;
 }
 
 .playerCompleteName{
@@ -70,6 +51,28 @@
 
 .playerName{
     font-size: 14px;
+}
+
+.playerId{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.info{
+    margin-top: 10px;
+}
+
+.playerPopup p{
+    text-align: left;
+    font-size: 14px;
+    margin: 5px 0px 5px 0px;
 }
 
 .smallTeamLogo{
