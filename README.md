@@ -2,13 +2,7 @@
 The idea of ​​the project is to create a simulator of counter strike matches with a graphical interface with html/css.
 
 ## Description
-This project is an interactive simulator of a CS:GO match, where users can select teams and then start the simulation to see the results of the match. The project uses a simple *JSON* database with teams and players For the example, in the last release the following teams were used: **Furia Esports**, **Fluxo** and **Imperial Sports**.
-
-### REALEASE 1.0
-
-![PRINT](/assets/prints/print1.png)
-
-In this first version it is possible to choose between the 3 teams, **Furia Esports**, **Fluxo** and **Imperial Sports**, to simulate  completely random matches. Also, players appear when choosing the team.
+This project is an interactive simulator of a CS:GO match, where users can select teams and then start the simulation to see the results of the match. The project uses a simple *JSON* database with teams and players.
 
 ### REALEASE 2.0
 
