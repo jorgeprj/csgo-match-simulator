@@ -239,5 +239,45 @@
 		"age": 28,
 		"country": "Brazil",
 		"skills": 79
+	},
+	{
+		"id": 31,
+		"name": "Rodrigo Bittencourt",
+		"nickname": "biguzera",
+		"age": 26,
+		"country": "Brazil",
+		"skills": 83
+	},
+	{
+		"id": 32,
+		"name": "Felipe Medeiros",
+		"nickname": "skullz",
+		"age": 21,
+		"country": "Brazil",
+		"skills": 83
+	},
+	{
+		"id": 33,
+		"name": "Cássio Santos",
+		"nickname": "cass1n",
+		"age": 21,
+		"country": "Brazil",
+		"skills": 78
+	},
+	{
+		"id": 34,
+		"name": "Lucas Meneghini",
+		"nickname": "lux",
+		"age": 21,
+		"country": "Brazil",
+		"skills": 79
+	},
+	{
+		"id": 35,
+		"name": "Kaue Kaschuk",
+		"nickname": "kauez",
+		"age": 20,
+		"country": "Brazil",
+		"skills": 78
 	}
 ]
