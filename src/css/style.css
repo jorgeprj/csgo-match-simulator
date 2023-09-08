@@ -18,7 +18,7 @@ body {
     text-align: center;
 }
 
-.score-container{
+.scoreContainer{
     text-align: center;
     display: flex;
     justify-content: center;
@@ -98,8 +98,12 @@ select:focus {
     vertical-align: middle;
 }
 
+.buttons{
+    text-align: center;
+}
+
 .playButton {
-    background-color: #007bff;
+    background-color: #1dbf10;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -108,3 +112,17 @@ select:focus {
     cursor: pointer;
     margin-top: 30px;
 }
+
+.statsButton {
+    display: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+

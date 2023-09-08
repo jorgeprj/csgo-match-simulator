@@ -1,4 +1,4 @@
-.popup-container {
+.popupContainer {
     display: none;
     position: fixed;
     top: 0;
@@ -17,22 +17,19 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
+    display: flex;
+    align-items: center;
+}
+.popup h3{
+    flex: 1;
+    margin-right: 10px;
 }
 
-.close{
-    display: block;
-    margin:  0 0 20px auto;
+.errorClose {
     background-color: transparent;
     font-size: 30px;
-    color: #c5c5c5;
+    color: #F15E5E;
     border: none;
     outline: none;
     cursor: pointer;
-}
-
-.popup p{
-    font-size: 14px;
-    text-align: justify;
-    margin: 20px 0;
-    line-height: 25px;
 }

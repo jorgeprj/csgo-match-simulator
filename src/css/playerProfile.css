@@ -26,6 +26,17 @@
 
 }
 
+.close {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 .playerSkills{
     display: inline-block;
     font-weight: bold;
