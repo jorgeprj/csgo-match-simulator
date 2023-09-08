@@ -199,5 +199,45 @@
 		"age": 29,
 		"country": "Brazil",
 		"skills": 81
+	},
+	{
+		"id": 26,
+		"name": "Marcelo David",
+		"nickname": "coldzera",
+		"age": 29,
+		"country": "Brazil",
+		"skills": 82
+	},
+	{
+		"id": 27,
+		"name": "Bruno Rebelatto",
+		"nickname": "latto",
+		"age": 21,
+		"country": "Brazil",
+		"skills": 80
+	},
+	{
+		"id": 28,
+		"name": "Eduardo Walkmer",
+		"nickname": "dumau",
+		"age": 20,
+		"country": "Brazil",
+		"skills": 81
+	},
+	{
+		"id": 29,
+		"name": "Lucas Soares",
+		"nickname": "nqz",
+		"age": 18,
+		"country": "Brazil",
+		"skills": 83
+	},
+	{
+		"id": 30,
+		"name": "Gabriel Schenato",
+		"nickname": "NEKIZ",
+		"age": 28,
+		"country": "Brazil",
+		"skills": 79
 	}
 ]
