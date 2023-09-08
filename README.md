@@ -6,9 +6,21 @@ This project is an interactive simulator of a CS:GO match, where users can selec
 
 ### REALEASE 1.0
 
-![PRINT](/assets/print1.png)
+![PRINT](/assets/prints/print1.png)
 
 In this first version it is possible to choose between the 3 teams, **Furia Esports**, **Fluxo** and **Imperial Sports**, to simulate  completely random matches. Also, players appear when choosing the team.
+
+### REALEASE 2.0
+
+![Imagem 1](/assets/prints/print5.png) | ![Imagem 2](/assets/prints/print10.png) | ![Imagem 3](/assets/prints/print6.png)
+--- | --- | ---
+![Imagem 3](/assets/prints/print9.png) | ![Imagem 4](/assets/prints/print7.png) | ![Imagem 5](/assets/prints/print8.png)
+
+The highlight is a complete overhaul of the visual design with enhanced CSS, providing a more immersive and stylized experience. Additionally, we've introduced the **player profile** system, allowing users to access detailed information about each match participant, including their *skills*, *complete name*, *age* and *country*.
+
+Another valuable addition is the **match stats** feature, offering in-depth information about simulated matches, including the number of *kills*, *deaths*, and *ratings* for all players. This update also includes performance enhancements and bug fixes to ensure a stable and smooth experience. 
+
+In addition to these exciting features, we've expanded our database to accommodate even more gaming enthusiasts. We've added four additional teams, totaling *seven teams* with a roster of *35 players*. 
 
 ## Database
 
@@ -23,6 +35,8 @@ The project has a database of teams and players. Below you can check the teams a
 | Fluxo            | 3  |
 | 9z Team          | 4  |
 | MIBR             | 5  |
+| Fake Natty       | 6  |
+| Pain Gaming      | 7  |
 
 ### Players
 
@@ -53,6 +67,16 @@ The project has a database of teams and players. Below you can check the teams a
 | insani   | 23 |
 | drop     | 24 |
 | saffee   | 25 |
+| coldzera | 26 |
+| latto    | 27 |
+| dumau    | 28 |
+| nqz      | 29 |
+| NEKIZ    | 30 |
+| biguzera | 31 |
+| skullz   | 32 |
+| cass1n   | 33 |
+| lux      | 34 |
+| kauez    | 35 |
 
 ## Details
 
@@ -67,8 +91,6 @@ The project has a database of teams and players. Below you can check the teams a
 ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-![TypeScript](https://img.shields.io/badge/typescript-%231572B6.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Changelog
 Can be checked by github itself in realeases.
