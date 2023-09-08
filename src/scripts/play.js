@@ -18,15 +18,14 @@ document.addEventListener("DOMContentLoaded", async function  () {
     playButton.addEventListener("click", function () {
         const selectedTeamIdA = parseInt(teamSelectorA.value);
         const selectedTeamIdB = parseInt(teamSelectorB.value);
-
         const selectedTeamA = teams.find(team => team.id === selectedTeamIdA);
         const selectedTeamB = teams.find(team => team.id === selectedTeamIdB);
-        const teamA = new Team(selectedTeamA.id, selectedTeamA.name, selectedTeamA.roster)
-        const teamB = new Team(selectedTeamB.id, selectedTeamB.name, selectedTeamB.roster)
 
         if (!selectedTeamA || !selectedTeamB) {
             popupContainer.style.display = "flex";
         } else {
+            const teamA = new Team(selectedTeamA.id, selectedTeamA.name, selectedTeamA.roster)
+            const teamB = new Team(selectedTeamB.id, selectedTeamB.name, selectedTeamB.roster)
             getScore(teamA, teamB);
             getMatchStats(match);
         }
