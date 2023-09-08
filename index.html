@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/style.css">
-    <link rel="stylesheet" href="/src/css/erroPopup.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/erroPopup.css">
     <link rel="stylesheet" href="src/css/playerProfile.css">
+    <link rel="stylesheet" href="src/css/matchStats.css">
     <title>CS:GO Match Simulator</title>
 </head>
 
 <body>
     <div class="simulator">
-        <div class="score-container">
+        <div class="scoreContainer">
             <div class="teamLogo" id="teamALogo"><img src="" alt=""></div>
             <div class ="score" id="score"></div>
             <div class="teamLogo" id="teamBLogo"><img src="" alt=""></div>
@@ -39,8 +40,10 @@
             </div>
         </div>
         
-        <br>
-        <button class="playButton" id="playButton">PLAY</button>
+        <div class="buttons">
+            <button class="playButton" id="playButton">PLAY</button>
+            <button class="statsButton" id="statsButton">STATS</button>
+        </div>
 
         <div class="playerPopupContainer" id="playerPopupContainer">
             <div class="playerPopup" id="playerPopup">
@@ -59,19 +62,40 @@
             </div>
         </div>
 
-        <div class="popup-container" id="popupContainer">
+        <div class="statsPopupContainer" id="statsPopupContainer">
+            <div class="statsPopup" id="statsPopup">
+                <button class="close" id="close3">&times;</button>
+                <h2>Match Stats</h2>
+                <table id="teamAStats">
+                    <tr>
+                        <th id="teamAName">Nome do Time</th>
+                        <th>K-D</th>
+                        <th>+/-</th>
+                        <th>Rating</th>
+                    </tr>
+                </table>
+
+                <table id="teamBStats">
+                    <tr>
+                        <th id="teamBName">Nome do Time</th>
+                        <th>K-D</th>
+                        <th>+/-</th>
+                        <th>Rating</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="popupContainer" id="popupContainer">
             <div class="popup" id="popup">
-                <button class="close" id="close2">&times;</button>
-                <h2>Oops</h2>
-                <p>
-                    Please select valid teams.
-                </p>
+                <h3>Please select valid teams</h3>
+                <button class="errorClose" id="close2">&times;</button>
             </div>
         </div>
 
     </div>
-    <script src="/src/js/match.js"></script>
-    <script src="/src/js/playButton.js"></script>
+    <script type="module" src="/src/js/play.js"></script>
+    <script src="/src/js/statsButton.js"></script>
     <script src="/src/js/erroPopup.js"></script>
     <script src="/src/js/teamSelector.js"></script>
     <script src="/src/js/playerProfile.js"></script>
