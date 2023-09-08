@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
 
     document.querySelector("#close").addEventListener("click", function(){
-        document.querySelector(".playerPopup-container").style.display = "none";
+        document.querySelector(".playerPopupContainer").style.display = "none";
     });
 
     addClickEventToPlayerElements();

@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           const imagePathB = `/assets/teams/${selectedTeamIdB}.png`;
           teamALogo.innerHTML = `<img src="${imagePathA}" alt="Logo do Time A">`;
           teamBLogo.innerHTML = `<img src="${imagePathB}" alt="Logo do Time B">`;
+          statsButton.style.display = "none";
         }
     }
 
