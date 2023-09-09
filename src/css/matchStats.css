@@ -12,7 +12,7 @@
 }
 
 .statsPopup {
-    background-color: white;
+    background-color: var(--black);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -20,7 +20,7 @@
 }
 
 .statsPopup p {
-    font-size: 14px;
+    font-size: 1rem;
     text-align: justify;
     margin: 20px 0;
     line-height: 25px;
@@ -29,22 +29,28 @@
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: white;
+    border-radius: 10px;
+    background-color: var(--dark-gray);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     color: black;
     margin-top: 20px;
-    font-size: 14px;
-    border-radius: 10px;
+    font-size: 0.8125rem;
 }
 
 th {
-    background-color: #eaeaea;
+    border-collapse: collapse;
+    background-color: var(--dark-gray);
     padding: 10px;
-    font-size: 16px;
+    font-size: 1rem;
+    color: var(--white);
+    border-bottom: 1px solid var(--medium-gray);
 }
 
 td {
+    background-color: var(--dark-gray);
+    border-collapse: collapse;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    color: var(--white);
 }
 
 tr:first-child {

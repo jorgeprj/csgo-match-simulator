@@ -1,4 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+    --purple: #4422EF;
+    --white: #DEDEDE;
+    --gray: #5C5D63;
+    --medium-gray: #42434C;
+    --dark-gray: #111115;
+    --black: #0E0E10;
+    --dark-green: #BCFE2F;
+    --green: #23EEA7;
+    --dark-orange: #F29445;
+    --orange: #EBB15B;
+    --red: #F61156;
+}
+
+html {
+    font-size: 16px;
+}
 
 body {
     font-family: "Poppins", sans-serif;
@@ -7,18 +25,46 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+body {
+    font-size: 1.125rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+small {
+    font-size: 0.8125rem;
 }
 
 .simulator {
-    background-color: #fff;
+    background-color: var(--dark-gray);
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.scoreContainer{
+.scoreContainer {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -30,99 +76,107 @@ body {
 .team {
     display: inline-block;
     margin: 0 20px;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
 }
 
-.teamLogo{
+.teamLogo {
     max-width: 100px;
     margin-bottom: 10px;
-    display: block; 
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .teamLogo img {
     max-width: 48px;
-    height: auto; 
+    height: auto;
 }
 
 .score {
-    font-size: 24px;
+    font-size: 2rem;
     display: inline-block;
 }
 
 select {
-    padding: 10px; 
-    font-size: 14px; 
-    border: 1px solid #ccc; 
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--purple);
     border-radius: 5px;
-    background-color: #fff;
-    color: #333; 
+    background-color: var(--dark-gray);
+    color: var(--white);
     width: 200px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 select::-ms-expand {
-    display: none; 
-  }
-  
-select option {
-    padding: 5px;
-    font-size: 14px;
-}
-  
-select:focus {
-    border-color: #007bff; 
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    display: none;
 }
 
-.teamSelector{
+select option {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+select:focus {
+    border-color: var(--purple);
+    box-shadow: 0 0 5px var(--purple), 0 0 10px rgba(68, 34, 239, 0.5);
+}
+
+.teamSelector {
     margin-bottom: 10px;
 }
 
 .player {
     margin-top: 10px;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 1rem;
     text-align: left;
     cursor: pointer;
     vertical-align: middle;
+    color: var(--white);
+    font-weight: 500;
 }
 
-.flag{
-    width: 19px;
-    height: 14px;
+.flag {
+    width: 22px;
+    height: 16px;
     margin-right: 5px;
     display: inline-block;
     vertical-align: middle;
 }
 
-.buttons{
+.buttons {
     text-align: center;
 }
 
 .playButton {
-    background-color: #1dbf10;
-    color: #fff;
+    background-color: var(--purple);
+    color: var(--white);
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     margin-top: 30px;
 }
 
 .statsButton {
     display: none;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    background-color: transparent;
+    color: var(--white);
+    border: 2px solid var(--purple);
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     margin-top: 30px;
     margin-left: 10px;
 }
 
+.statsButton:hover,
+.playButton:hover {
+    border-color: var(--purple);
+    box-shadow: 0 0 5px var(--purple), 0 0 10px rgba(68, 34, 239, 0.5);
+}

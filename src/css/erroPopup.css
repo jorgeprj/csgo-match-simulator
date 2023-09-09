@@ -12,7 +12,7 @@
 }
 
 .popup {
-    background-color: white;
+    background-color: var(--black);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -23,12 +23,13 @@
 .popup h3{
     flex: 1;
     margin-right: 10px;
+    font-weight: 400;
 }
 
 .errorClose {
     background-color: transparent;
     font-size: 30px;
-    color: #F15E5E;
+    color: var(--red);
     border: none;
     outline: none;
     cursor: pointer;
