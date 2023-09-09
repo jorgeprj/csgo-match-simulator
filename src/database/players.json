@@ -5,7 +5,7 @@
 		"nickname": "FalleN",
 		"age": 31,
 		"country": "Brazil",
-		"skills": 84
+		"skills": 85
 	},
 	{
 		"id": 2,
@@ -13,7 +13,7 @@
 		"nickname": "yuurih",
 		"age": 24,
 		"country": "Brazil",
-		"skills": 84
+		"skills": 87
 	},
 	{
 		"id": 3,
@@ -21,7 +21,7 @@
 		"nickname": "arT",
 		"age": 27,
 		"country": "Brazil",
-		"skills": 81
+		"skills": 83
 	},
 	{
 		"id": 4,
@@ -29,7 +29,7 @@
 		"nickname": "KSCERATO",
 		"age": 25,
 		"country": "Brazil",
-		"skills": 85
+		"skills": 91
 	},
 	{
 		"id": 5,
@@ -70,7 +70,7 @@
 		"nickname": "HEN1",
 		"age": 28,
 		"country": "Brazil",
-		"skills": 83
+		"skills": 85
 	},
 	{
 		"id": 10,
@@ -78,7 +78,7 @@
 		"nickname": "felps",
 		"age": 26,
 		"country": "Brazil",
-		"skills": 82
+		"skills": 84
 	},
 	{
 		"id": 11,
@@ -102,7 +102,7 @@
 		"nickname": "zevy",
 		"age": 22,
 		"country": "Brazil",
-		"skills": 79
+		"skills": 81
 	},
 	{
 		"id": 14,
@@ -110,7 +110,7 @@
 		"nickname": "PKL",
 		"age": 29,
 		"country": "Brazil",
-		"skills": 77
+		"skills": 78
 	},
 	{
 		"id": 15,
@@ -118,7 +118,7 @@
 		"nickname": "t9rnay",
 		"age": 22,
 		"country": "Brazil",
-		"skills": 78
+		"skills": 79
 	},
 	{
 		"id": 16,
@@ -142,7 +142,7 @@
 		"nickname": "dav1deuS",
 		"age": 23,
 		"country": "Chile",
-		"skills": 79
+		"skills": 81
 	},
 	{
 		"id": 19,
@@ -150,7 +150,7 @@
 		"nickname": "buda",
 		"age": 20,
 		"country": "Argentina",
-		"skills": 78
+		"skills": 79
 	},
 	{
 		"id": 20,
@@ -158,7 +158,7 @@
 		"nickname": "try",
 		"age": 19,
 		"country": "Argentina",
-		"skills": 81
+		"skills": 83
 	},
 	{
 		"id": 21,
@@ -166,7 +166,7 @@
 		"nickname": "exit",
 		"age": 27,
 		"country": "Brazil",
-		"skills": 78
+		"skills": 79
 	},
 	{
 		"id": 22,
@@ -174,7 +174,7 @@
 		"nickname": "brnz4n",
 		"age": 20,
 		"country": "Brazil",
-		"skills": 79
+		"skills": 81
 	},
 	{
 		"id": 23,
@@ -182,7 +182,7 @@
 		"nickname": "insani",
 		"age": 19,
 		"country": "Brazil",
-		"skills": 82
+		"skills": 84
 	},
 	{
 		"id": 24,
@@ -198,7 +198,7 @@
 		"nickname": "saffee",
 		"age": 29,
 		"country": "Brazil",
-		"skills": 81
+		"skills": 84
 	},
 	{
 		"id": 26,
@@ -238,7 +238,7 @@
 		"nickname": "NEKIZ",
 		"age": 28,
 		"country": "Brazil",
-		"skills": 79
+		"skills": 80
 	},
 	{
 		"id": 31,
@@ -246,7 +246,7 @@
 		"nickname": "biguzera",
 		"age": 26,
 		"country": "Brazil",
-		"skills": 83
+		"skills": 84
 	},
 	{
 		"id": 32,
@@ -262,7 +262,7 @@
 		"nickname": "cass1n",
 		"age": 21,
 		"country": "Brazil",
-		"skills": 78
+		"skills": 79
 	},
 	{
 		"id": 34,
@@ -270,7 +270,7 @@
 		"nickname": "lux",
 		"age": 21,
 		"country": "Brazil",
-		"skills": 79
+		"skills": 80
 	},
 	{
 		"id": 35,
@@ -278,6 +278,6 @@
 		"nickname": "kauez",
 		"age": 20,
 		"country": "Brazil",
-		"skills": 78
+		"skills": 79
 	}
 ]
