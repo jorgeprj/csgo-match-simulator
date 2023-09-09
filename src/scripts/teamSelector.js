@@ -38,11 +38,9 @@ document.addEventListener("DOMContentLoaded", async function () {
         const scoreElement = document.getElementById("score");
         scoreElement.textContent = "";
       
-        // Assuming the roster attribute is a list of player IDs
         const rosterA = selectedTeamA.roster;
         const rosterB = selectedTeamB.roster;
       
-        // Update player elements with player IDs
         updatePlayerElement("player1", rosterA[0]);
         updatePlayerElement("player2", rosterA[1]);
         updatePlayerElement("player3", rosterA[2]);

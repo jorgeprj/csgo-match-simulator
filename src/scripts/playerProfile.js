@@ -31,10 +31,15 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     function createPlayerSkills(player){
         document.getElementById("playerSkills").textContent = player.skills;
-        if (player.skills > 80){
-            playerSkills.style.color = '#19a914';
-        }else if(player.skills < 80){
-            playerSkills.style.color = '#49d184';
+        if (player.skills > 89){
+            playerSkills.style.color = 'var(--purple)';
+        }
+        else if (player.skills > 80){
+            playerSkills.style.color = 'var(--green)';
+        }else if(player.skills > 70){
+            playerSkills.style.color = 'var(--dark-green)';
+        }else{
+            playerSkills.style.color = 'var(--red)';
         }
     }
 
