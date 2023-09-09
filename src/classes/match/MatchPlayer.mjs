@@ -1,6 +1,7 @@
 export class MatchPlayer {
-    constructor(id) {
+    constructor(id, skills) {
         this.id = id;
+        this.skills = skills;
         this.health = 100;
     }
 
@@ -10,6 +11,14 @@ export class MatchPlayer {
 
     setID(id) {
         this.id = id;
+    }
+
+    getSkills() {
+        return this.skills;
+    }
+
+    setSkills(skills) {
+        this.skills = skills;
     }
 
     getHealth() {

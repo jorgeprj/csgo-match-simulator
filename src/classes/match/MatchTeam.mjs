@@ -1,6 +1,8 @@
 import { Team } from '../team/Team.mjs'
 import { MatchPlayer } from './MatchPlayer.mjs';
 
+import playersData from '../../database/players.json' assert { type: 'json' };
+
 export class MatchTeam {
     constructor(id, players) {
         this.teamID = id;
@@ -23,7 +25,8 @@ export class MatchTeam {
         const players = [];
 
         team.getRoster().forEach((playerID) => {
-            players.push(new MatchPlayer(playerID));
+            var player = playersData.find(player => player.id === playerID);
+            players.push(new MatchPlayer(playerID, player.skills));
         });
 
         this.players = players;

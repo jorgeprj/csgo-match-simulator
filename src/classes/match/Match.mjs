@@ -116,9 +116,20 @@ export class Match {
     }
 
     playEncounter(playerCT, playerT) {
-        const randomPlayer = Math.floor(Math.random() * 2) + 1; // 50% odd
+        const skillsCT = playerCT.getSkills();
+        const skillsT = playerT.getSkills(); 
 
-        if (randomPlayer == 1) {
+        const power = 5;
+        const skillsCTPowered = Math.pow(skillsCT, power);
+        const skillsTPowered = Math.pow(skillsT, power);
+    
+
+        const probabilityCT = skillsCTPowered / (skillsCTPowered + skillsTPowered);
+        console.log(probabilityCT);
+
+        const random = Math.random();
+
+        if (random < probabilityCT) {
             playerT.kill();
             this.stats.addKillToPlayerStats(playerCT.getID());
             this.stats.addDeathToPlayerStats(playerT.getID());
