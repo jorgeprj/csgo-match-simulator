@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", async function  () {
     const teamSelectorA = document.getElementById("teamSelectorA");
     const teamSelectorB = document.getElementById("teamSelectorB");
     
-    const response = await fetch("/src/database/teams.json");
+    const response = await fetch("./src/database/teams.json");
     const teams = await response.json();
 
-    const responsePlayers = await fetch("/src/database/players.json");
+    const responsePlayers = await fetch("./src/database/players.json");
     const players = await responsePlayers.json();
 
     let match = null;

@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", async function () {
-    const responsePlayers = await fetch("/src/database/players.json");
+    const responsePlayers = await fetch("./src/database/players.json");
     const players = await responsePlayers.json();
 
-    const response = await fetch("/src/database/teams.json");
+    const response = await fetch("./src/database/teams.json");
     const teams = await response.json();
 
     function addClickEventToPlayerElements() {

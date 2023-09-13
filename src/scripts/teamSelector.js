@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     const teamALogo = document.getElementById("teamALogo");
     const teamBLogo = document.getElementById("teamBLogo"); 
 
-    const response = await fetch("/src/database/teams.json");
+    const response = await fetch("./src/database/teams.json");
     const teams = await response.json();
 
-    const responsePlayers = await fetch("/src/database/players.json");
+    const responsePlayers = await fetch("./src/database/players.json");
     const players = await responsePlayers.json();
 
     function populateTeamSelectors() {
@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             playerElement.appendChild(document.createTextNode(player.nickname));
           }
 
-          const imagePathA = `/assets/teams/${selectedTeamIdA}.png`;
-          const imagePathB = `/assets/teams/${selectedTeamIdB}.png`;
+          const imagePathA = `./assets/teams/${selectedTeamIdA}.png`;
+          const imagePathB = `./assets/teams/${selectedTeamIdB}.png`;
           teamALogo.innerHTML = `<img src="${imagePathA}" alt="Logo do Time A">`;
           teamBLogo.innerHTML = `<img src="${imagePathB}" alt="Logo do Time B">`;
           statsButton.style.display = "none";
