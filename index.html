@@ -15,10 +15,10 @@
     <div class="simulator">
         <div class="scoreContainer">
             <div class="teamLogo" id="teamALogo"><img src="" alt=""></div>
-            <div class ="score" id="score"></div>
+            <div class="score" id="score"></div>
             <div class="teamLogo" id="teamBLogo"><img src="" alt=""></div>
         </div>
-        
+
         <div class="team">
             <select class="teamSelector" id="teamSelectorA"></select>
             <div class="teamA">
@@ -39,7 +39,7 @@
                 <div class="player" id="player10"></div>
             </div>
         </div>
-        
+
         <div class="buttons">
             <button class="playButton" id="playButton">PLAY</button>
             <button class="statsButton" id="statsButton">STATS</button>
@@ -50,7 +50,7 @@
                 <button class="close" id="close">&times;</button>
                 <div><span class="playerSkills" id="playerSkills"></span></div>
                 <img class="playerImage" id="playerImage" src="" alt="Imagem do Jogador">
-                
+
                 <div class="playerCompleteName">
                     <span class="playerNickname" id="playerNickname"></span>
                     <span class="playerName" id="playerName"></span>
@@ -66,23 +66,25 @@
             <div class="statsPopup" id="statsPopup">
                 <button class="close" id="close3">&times;</button>
                 <h1>Match Stats</h1>
-                <table id="teamAStats">
-                    <tr>
-                        <th id="teamAName">Nome do Time</th>
-                        <th>K-D</th>
-                        <th>+/-</th>
-                        <th>Rating</th>
-                    </tr>
-                </table>
+                <div class="tables">
+                    <table id="teamAStats">
+                        <tr>
+                            <th id="teamAName">Nome do Time</th>
+                            <th>K-D</th>
+                            <th>+/-</th>
+                            <th>Rating</th>
+                        </tr>
+                    </table>
 
-                <table id="teamBStats">
-                    <tr>
-                        <th id="teamBName">Nome do Time</th>
-                        <th>K-D</th>
-                        <th>+/-</th>
-                        <th>Rating</th>
-                    </tr>
-                </table>
+                    <table id="teamBStats">
+                        <tr>
+                            <th id="teamBName">Nome do Time</th>
+                            <th>K-D</th>
+                            <th>+/-</th>
+                            <th>Rating</th>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
 

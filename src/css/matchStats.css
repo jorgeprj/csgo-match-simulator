@@ -76,3 +76,10 @@ tr:first-child {
 .statsPlayerPlusMinus{
     text-align: center;
 }
+
+.tables {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    white-space: nowrap;
+}
