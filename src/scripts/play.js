@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", async function  () {
     const teamSelectorA = document.getElementById("teamSelectorA");
     const teamSelectorB = document.getElementById("teamSelectorB");
     
-    const response = await fetch("./src/database/teams.json");
+    const response = await fetch("../src/database/teams.json");
     const teams = await response.json();
 
-    const responsePlayers = await fetch("./src/database/players.json");
+    const responsePlayers = await fetch("../src/database/players.json");
     const players = await responsePlayers.json();
 
     let match = null;
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", async function  () {
     function setTeamName(team, teamName){
         const logoImage = document.createElement("img");
         logoImage.className = "statsTeamLogo";
-        const logoImagePath = `./assets/teams/${team.getID()}.png`;
+        const logoImagePath = `../assets/teams/${team.getID()}.png`;
         logoImage.src = logoImagePath;
         
         const teamANameElement = document.getElementById(teamName);

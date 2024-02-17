@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             const flagImage = document.createElement("img");
             flagImage.className = "flag";
       
-            const imagePath = `./assets/flags/${country}.png`;
+            const imagePath = `../assets/flags/${country}.png`;
             flagImage.src = imagePath;
 
             playerElement.setAttribute("data-player-id", playerId);
@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             playerElement.appendChild(document.createTextNode(player.nickname));
           }
 
-          const imagePathA = `./assets/teams/${selectedTeamIdA}.png`;
-          const imagePathB = `./assets/teams/${selectedTeamIdB}.png`;
+          const imagePathA = `../assets/teams/${selectedTeamIdA}.png`;
+          const imagePathB = `../assets/teams/${selectedTeamIdB}.png`;
           teamALogo.innerHTML = `<img src="${imagePathA}" alt="Logo do Time A">`;
           teamBLogo.innerHTML = `<img src="${imagePathB}" alt="Logo do Time B">`;
           statsButton.style.display = "none";

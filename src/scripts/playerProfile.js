@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                 createPlayerCurrentTeam(player);
 
                 const playerImage = document.getElementById("playerImage");
-                playerImage.src = `./assets/players/${player.id}.png`;
+                playerImage.src = `../assets/players/${player.id}.png`;
 
                 document.getElementById("playerPopupContainer").style.display = "block";
                 document.getElementById("playerPopup").style.display = "block";
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     function createFlagImage(player){
         const flagImage = document.createElement("img");
         flagImage.className = "flag";
-        const flagImagePath = `./assets/flags/${player.country}.png`;
+        const flagImagePath = `../assets/flags/${player.country}.png`;
         flagImage.src = flagImagePath;
         return flagImage;
     }
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             if (team !== undefined) {
                 const logoImage = document.createElement("img");
                 logoImage.className = "smallTeamLogo";
-                const logoImagePath = `./assets/teams/${teamId}.png`;
+                const logoImagePath = `../assets/teams/${teamId}.png`;
                 logoImage.src = logoImagePath;
                 
                 const playerTeamElement = document.getElementById("playerTeam");
